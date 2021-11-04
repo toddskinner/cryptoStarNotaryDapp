@@ -44,7 +44,7 @@ const App = {
     const { lookUptokenIdToStarInfo } = this.meta.methods;
     const id = document.getElementById("lookid").value;
     let lookedUpStarName = await lookUptokenIdToStarInfo(id).call();
-    if (lookedUpStarName == "") {
+    if (lookedUpStarName == "" || lookedUpStarName == null) {
       App.setStatus("Star with ID " + id + " has no name.");
     } else {
       App.setStatus("Star with ID " + id + " is named " + lookedUpStarName + ".");
