@@ -2,6 +2,8 @@
 
 **Contract address on Rinkeby:**    0xA34216f9a8b7989d516B1f2800288Cd1405d51F6
 
+https://rinkeby.etherscan.io/address/0xA34216f9a8b7989d516B1f2800288Cd1405d51F6
+
 1. **ERC-721 Token Name**: StarNotary
 2. **ERC-721 Token Symbol**: STRN
 3. **Truffle Version**: Truffle v5.4.14 (core: 5.4.14)
