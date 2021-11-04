@@ -11,7 +11,6 @@ contract StarNotary is ERC721 {
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
     constructor() ERC721("StarNotary", "STRN") {
-        _mint(msg.sender, 1000);
     }
 
     // Star data
